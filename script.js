@@ -21,7 +21,7 @@ function registrarPasso(passoAtual, saida, proximoPasso)
 {
     const dbParam = JSON.stringify(
         {
-            "Id_Grupo": 1,
+            "Id_Grupo": 5,
             "Id_Participante": localStorage.getItem("Id_Participante"),
             "DataHora": new Date(),
             "Saida": saida,
