@@ -1,4 +1,5 @@
-
+var grupo = 5 // 1 é o Id do professor
+var Id_Participante = localStorage.getItem("Id_Participante")
 function carregamento()
 {
     let carregado = true;
