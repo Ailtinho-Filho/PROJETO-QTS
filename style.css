@@ -1,0 +1,9 @@
+.container-fluid {
+align-items: center;
+
+}
+.container-text {
+    text-align: center;
+    text-size-adjust: 14;
+    color: black;
+}
