@@ -2,11 +2,14 @@
 align-items: center;
 
 }
-.container-text {
-    text-align: center;
-    color: black;
-}
 .p {
 color: black;
 text-align: center;
 }
+.row
+{
+tex-align: center;
+    pading:auto;
+    border: auto;
+}
+    
