@@ -1,15 +1,10 @@
 .container-fluid {
-align-items: center;
-
 }
 .p {
 color: black;
-text-align: center;
 }
 .row
 {
-tex-align: center;
-    pading:auto;
-    border: auto;
+    color: white;
 }
-    
+
