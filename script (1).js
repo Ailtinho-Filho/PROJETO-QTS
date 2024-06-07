@@ -1,4 +1,4 @@
-var grupo = 5 // 1 é o Id do professor
+var grupo = 4 // 1 é o Id do professor
 var Id_Participante = localStorage.getItem("Id_Participante")
 function IniciarPesquisa() {
 
