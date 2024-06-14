@@ -1,4 +1,4 @@
-var grupo = 4 // 1 é o Id do professor
+var grupo = 5 // 1 é o Id do professor 5-- ailton  4 larissa  2--Eduardo
 var Id_Participante = localStorage.getItem("Id_Participante")
 function IniciarPesquisa() {
 
@@ -44,13 +44,14 @@ function trocarPasso(passoAtual, proximoPasso) {
     let url = "https://pesquisa.fernandograciano.com.br/api/Respostas";
     let dados = `{ 
         "id_participante": "${Id_Participante}",
-        "IsSaida": "false",
+        "IsSaida": "true",
         "passo": "${passoAtual}",
         "grupoId": "${grupo}"
 }`
     var conexao = new XMLHttpRequest();
     conexao.open("post", url);
     conexao.setRequestHeader("Content-type", "application/json");
+    console.log(dados)
     conexao.send(dados)
     conexao.onload = function () {
         console.log("Carregado")
