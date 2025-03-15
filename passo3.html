@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Faça uma Multiplicação</title>
 </head>
-<body onload="carregamento()" >
-    <h1>Realize uma multiplicação entre</h1>
-    <h2>7845 X 254</h2>
-    <input type="number" id="numero1" />
-    <p>X</p>
-    <input type="number" id="numero2" />
-    
+<body onload="carregamento('passo3')" >
+    <h1><p>Realize uma multiplicação entre</h1></p>
+    <h2><p>7845 X 254</h2></p>
+    <button type="button"class="numeros">
+        <input type="number" id="numero1"/>
+        </button>
+    <p><h3>X</p></h3>
+    <button type="button" class="numeros">
+        <input type="number" id="numero2"/>
+    </button> 
     <button onclick="trocarPasso('passo3','passo4.html')">
         Multiplicar
     </button>
